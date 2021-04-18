@@ -19,11 +19,11 @@ const HomePage = () =>{
             <Section heading="Select Currency: " headingBgColor="bg-lightgrey" headingColor="text-primary">
                 <div className="mx-3 mt-3">
                     <div className="border border-light ">
-                        <select style={{height: "36px"}} className="form-select w-25 bg-lightgrey">
+                        <select style={{height: "26px"}} className="form-select w-25 bg-lightgrey">
                             <option>AFYA</option>
                             <option>ZAR</option>
                         </select>
-                        <input style={{height: "36px"}}  className="form-input w-75" type="number" step="0.000000001" min="0" />
+                        <input style={{height: "26px"}}  className="form-input w-75" type="number" step="0.000000001" min="0" />
                     </div>
                     <div className="mt-3">
                         <button className="btn btn-primary m-1 mr-4">SEND</button>
