@@ -7,8 +7,9 @@ import TopSection from './TopSection/TopSection';
 const HomePage = () =>{
     return(
         <div style={{maxWidth:"100vw", overflowX:"hidden"}} className="vw-100 vh-100 py-2 text-pink">
+            
             <div className="mx-1">
-                <div className="w-100 px-3 d-flex justify-content-between fixed-top">
+                <div style={{position: "fixed", top:"0px", zIndex:"999"}} className="bg-white border-bottom w-100 px-3 d-flex justify-content-between ">
                     <div ><i className="bi bi-ribbon"></i>ribbon</div>
                     <div ><i className="bi bi-person-circle bg-red"></i> <i className="bi bi-bell-fill"></i></div>
                 </div>
