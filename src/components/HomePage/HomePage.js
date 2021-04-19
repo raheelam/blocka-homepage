@@ -1,9 +1,8 @@
 import React from 'react';
 import ActivityList from './ActivityList/ActivityList';
-import NavigationBar from '../Navigation/NavigationBar';
 import Section from '../Section/Section';
 import TopSection from './TopSection/TopSection';
-import Header from '../Header/Header';
+
 
 const HomePage = () =>{
     return(
